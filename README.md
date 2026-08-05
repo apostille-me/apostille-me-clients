@@ -1,9 +1,21 @@
-# apostille-me-clients
+# apostille-me-clients (superseded)
 
-Generated and hand-written clients for apostille workflows, status checks, uploads, and typed errors.
+> This repository is frozen. The canonical source of truth is [`apme-clients`](https://github.com/apostille-me/apme-clients).
 
-Initialized through `DEN-1951` as a testable `clients` foundation. Product behavior continues through focused pull requests.
+The organization was bootstrapped with both short-name and full-name scaffolds. The short repository is the canonical implementation and package identity. This repository remains available only for history and provenance.
 
-```bash
-python3 scripts/verify_repo.py
-```
+## Migrate
+
+- Open issues, pull requests, releases, and new work in `apostille-me/apme-clients`.
+- Change Zed dependencies to `"apostille-me/apme-clients" = "^0.1.0"`.
+- Point any retained submodule at `apostille-me/apme-clients` and classify it according to the canonical monorepo's composition policy.
+- Prefer Zed packages for dependencies and use:
+
+  ```bash
+  git submodule update --init --recursive
+  zed install --git-submodules
+  ```
+
+Do not source the same repository through both Zed and a gitlink.
+
+The root `.zpkg.toml` is removed by this consolidation so the long-name repository cannot continue as a competing Zed package identity. Its Git history remains intact; genuinely unique changes should be ported to the canonical repository in a reviewed PR before an organization administrator archives this repository.
