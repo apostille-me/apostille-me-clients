@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.20)
+project(apostille_me_client_cpp CXX)
+add_library(apostille_me_client_cpp INTERFACE)
+target_include_directories(apostille_me_client_cpp INTERFACE include)
+target_compile_features(apostille_me_client_cpp INTERFACE cxx_std_17)

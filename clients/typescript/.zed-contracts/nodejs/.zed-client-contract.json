@@ -1,0 +1,10 @@
+{
+  "apiSurface": "clients/api-surface.json",
+  "apiSurfaceSha256": "cb50f5519b920c82a67b73abde7d5172114ef46ad63ca87fb2b2cb024482a2a5",
+  "coordinate": "apostille-me/apostille-me-clients",
+  "runtime": "nodejs",
+  "schemaId": "https://zpkg.tech/schemas/client-api.schema.json",
+  "schemaVersion": 1,
+  "target": "typescript-nodejs",
+  "zedTarget": "nodejs"
+}
