@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.20)
+project(apostille_me_client C)
+add_library(apostille_me_client src/apostille_me_client.c)
+target_include_directories(apostille_me_client PUBLIC include)
+target_compile_features(apostille_me_client PUBLIC c_std_11)

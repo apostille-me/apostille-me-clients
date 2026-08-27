@@ -1,0 +1,10 @@
+{
+  "apiSurface": "clients/api-surface.json",
+  "apiSurfaceSha256": "14c81da40f30415f192595626834b50f99adb03e2cbf93844306e86ee32e0847",
+  "coordinate": "apostille-me/apostille-me-clients",
+  "runtime": "deno",
+  "schemaId": "https://zpkg.tech/schemas/client-api.schema.json",
+  "schemaVersion": 1,
+  "target": "typescript-deno",
+  "zedTarget": "nodejs"
+}
